@@ -150,6 +150,32 @@ header {
   letter-spacing: 4px;
 }
 
+.access-token h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#textToCopy {
+  margin-bottom: 0;
+  padding: 15px 20px;
+  display: inline-block;
+  background-color: #2d2d2c;
+  color: #fff;
+  word-break: break-all;
+}
+
+#textToCopy span {
+  margin-left: 10px;
+  /* background-color: #212121; */
+  /* padding: 10px; */
+  font-size: 15px;
+  cursor: pointer;
+}
+
 .down-arrow a {
   display: flex;
   text-decoration: none;
