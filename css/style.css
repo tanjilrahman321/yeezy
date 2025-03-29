@@ -469,6 +469,23 @@ header {
 
 /* faq end  */
 
+/* piechart start  */
+.piechart {
+  padding: 50px 00;
+  background: #0b0b0b;
+  background: linear-gradient(90deg, rgba(11, 11, 11, 1) 0%, rgba(55, 55, 53, 1) 45%, rgba(55, 55, 53, 1) 55%, rgba(11, 11, 11, 1) 100%);
+}
+
+.piechart h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #c4c4c4;
+  font-size: 42px;
+  font-weight: 800;
+}
+
+/* piechart end  */
+
 /* footer start  */
 
 footer {
@@ -533,4 +550,11 @@ footer {
 
 #backToTop:hover {
   background-color: #555;
+}
+
+.ca span {
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.5px;
+  word-break: break-all;
 }
