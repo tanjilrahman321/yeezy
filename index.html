@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+
   <!-- Google Font start  -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +17,8 @@
     rel="stylesheet">
 
   <!-- Google Font end  -->
+
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
 
   <!-- Slick Slider Css -->
   <link rel="stylesheet" href="vendor/slick/css/slick.css">
@@ -26,7 +30,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
 
-  <title>Website Title</title>
+  <title>Bank of Yeezy</title>
 </head>
 
 <body>
@@ -129,7 +133,7 @@
           </div>
         </div>
 
-         <div class="access-token">
+        <div class="access-token">
           <h2>Early Access Address</h2>
           <p id="textToCopy">FoAR3THc6jkwANcKNNqphNc7FPfDexK2qpqsrGT4s129 <span onclick="copyText()"><i
                 class="fa-solid fa-copy"></i></span>
@@ -138,7 +142,7 @@
             function copyText() {
               const text = document.getElementById('textToCopy').innerText;
               navigator.clipboard.writeText(text).then(() => {
-                alert('Text copied to clipboard!');
+                alert('Address copied to clipboard!');
               }).catch(err => {
                 console.error('Failed to copy text: ', err);
               });
@@ -146,13 +150,14 @@
           </script>
         </div>
 
-       <div class="text-center py-4">
+
+        <div class="text-center py-4">
           <a href="#faq" class="nav-btn">How to buy</a>
         </div>
 
 
         <div class="down-arrow d-flex justify-content-center mt-4">
-          <a href="#where-use"><i class="fa-solid fa-chevron-down"></i></a>
+          <a href="#faq"><i class="fa-solid fa-chevron-down"></i></a>
         </div>
 
       </div>
@@ -373,7 +378,7 @@
   </section>
   <!-- step end  -->
 
-    <!-- faq start  -->
+  <!-- faq start  -->
   <section class="faq" id="faq">
     <div class="container">
 
@@ -546,6 +551,21 @@
   </section>
   <!-- faq end  -->
 
+  <!-- piechart start  -->
+
+  <section class="piechart">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-sm-11">
+          <h1>TOKENOMICS</h1>
+          <img src="images/piechart.png" class="img-fluid w-100" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- piechart end -->
+
   <!-- footer start  -->
 
   <footer>
@@ -573,7 +593,7 @@
     </div>
   </footer>
 
- <section class="py-4"
+  <section class="py-4"
     style="background: #0b0b0b;
   background: linear-gradient(90deg, rgba(11, 11, 11, 1) 0%, rgba(55, 55, 53, 1) 45%, rgba(55, 55, 53, 1) 55%, rgba(11, 11, 11, 1) 100%);">
     <div class="container">
@@ -592,6 +612,11 @@
           <h2 class="mb-0" style="font-weight: 700; font-size: 16px; color: #fff;">400M YEEZY</h2>
         </div>
       </div>
+
+      <div class="ca text-center mt-4">
+        <span><strong>CA:</strong> G82FHknR7uLHbgVud6jRu61ofQNS9wH8ZoH8geyBtpB4</span>
+      </div>
+
     </div>
   </section>
 
